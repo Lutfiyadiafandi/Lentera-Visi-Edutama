@@ -1,9 +1,12 @@
-import React from 'react'
+import AboutUs from "@/components/molecules/AboutUs";
+import React from "react";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <AboutUs />
+    </>
+  );
+};
 
-export default About
+export default About;
